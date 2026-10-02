@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import { Navbar } from './components/Navbar';
-
+import BusinessDetail from './pages/BusinessDetail';
 import { Hero } from './components/Hero';
 import { Businesses } from './components/Businesses';
 import { About } from './components/About';
@@ -16,6 +16,10 @@ import { InvestmentFocus } from './components/InvestmentFocus';
 import { WhyAravNexus } from './components/WhyAravNexus';
 import { Impact } from './components/Impact';
 import { Journey } from './components/Journey';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ee0b10 (Fix navbar and routing build errors)
 import { Careers } from './components/Careers';
 import { Contact } from './components/Contact';
 
@@ -388,11 +392,10 @@ function App() {
             element={<AboutPage />}
           />
 
-          <Route
-            path="/businesses"
-            element={<BusinessesPage />}
-          />
-
+            <Route
+    path="/businesses/:businessId"
+    element={<BusinessDetail />}
+  />
           <Route
             path="/investments"
             element={<InvestmentsPage />}
@@ -403,6 +406,7 @@ function App() {
             element={<ImpactPage />}
           />
 
+<Route path="/businesses" element={<BusinessesPage />} />
           <Route
             path="/careers"
             element={<CareersPage />}
