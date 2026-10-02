@@ -4,7 +4,7 @@ import { siteConfig } from '../config/site';
 
 export const InvestmentFocus: React.FC = () => {
   const renderFocusIcon = (name: string) => {
-    const iconClass = "w-6 h-6 text-[#D6A84F] group-hover:text-white transition-colors";
+    const iconClass = "w-5 h-5 text-[#D6A84F] group-hover:text-[#061522] transition-colors";
     switch (name) {
       case 'Building2':
         return <Building2 className={iconClass} />;
@@ -24,12 +24,12 @@ export const InvestmentFocus: React.FC = () => {
   };
 
   return (
-    <section id="investments" className="py-24 sm:py-32 bg-[#061522] relative overflow-hidden border-t border-[#D6A84F]/10">
+    <section id="investments" className="py-20 sm:py-28 lg:py-32 bg-[#061522] relative overflow-hidden border-t border-[#D6A84F]/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto space-y-4 mb-16 sm:mb-20">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0E243B] border border-[#D6A84F]/30">
-            <span className="text-xs font-semibold tracking-widest uppercase text-[#F3D78B]">
+        <div className="text-center max-w-3xl mx-auto space-y-4 mb-14 sm:mb-18">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0E243B] border border-[#D6A84F]/30">
+            <span className="text-[11px] sm:text-xs font-bold tracking-widest uppercase text-[#F3D78B]">
               Asset Allocation &amp; Sectors
             </span>
           </div>
@@ -38,7 +38,7 @@ export const InvestmentFocus: React.FC = () => {
             Where We <span className="text-gold-gradient">Invest</span>
           </h2>
 
-          <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
             Our capital is strategically deployed across vital sectors powering the next era of economic
             modernization and sustainable infrastructure.
           </p>
@@ -49,20 +49,19 @@ export const InvestmentFocus: React.FC = () => {
           {siteConfig.investmentFocus.map((focus) => (
             <div
               key={focus.id}
-              className="group p-8 rounded-2xl bg-[#0E243B]/70 border border-[#D6A84F]/20 hover:border-[#D6A84F]/60 transition-all duration-300 hover:-translate-y-2 shadow-navy-card hover:shadow-gold-sm flex flex-col justify-between"
+              className="group p-7 sm:p-8 rounded-2xl bg-[#0E243B]/70 border border-[#D6A84F]/20 hover:border-[#D6A84F]/60 transition-all duration-300 hover:-translate-y-1.5 shadow-navy-card hover:shadow-gold-sm flex flex-col justify-between"
             >
               <div>
-                <div className="flex items-center justify-between mb-6">
-                  {/* Icon with Gold Accent Container */}
-                  <div className="w-12 h-12 rounded-xl bg-[#061522] border border-[#D6A84F]/30 flex items-center justify-center group-hover:bg-[#D6A84F] transition-all duration-300 shadow-sm">
+                <div className="flex items-center justify-between mb-5">
+                  <div className="w-11 h-11 rounded-xl bg-[#061522] border border-[#D6A84F]/30 flex items-center justify-center group-hover:bg-[#D6A84F] transition-all duration-300 shadow-sm">
                     {renderFocusIcon(focus.iconName)}
                   </div>
-                  <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/5 text-[#F3D78B] border border-[#D6A84F]/20">
+                  <span className="text-[10px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full bg-white/5 text-[#F3D78B] border border-[#D6A84F]/20">
                     {focus.badge}
                   </span>
                 </div>
 
-                <h3 className="font-heading text-xl font-bold text-white mb-2.5 group-hover:text-[#F3D78B] transition-colors">
+                <h3 className="font-heading text-xl font-bold text-white mb-2 group-hover:text-[#F3D78B] transition-colors">
                   {focus.title}
                 </h3>
 
@@ -72,7 +71,7 @@ export const InvestmentFocus: React.FC = () => {
               </div>
 
               {/* Decorative bottom gold line */}
-              <div className="w-12 h-[2px] bg-[#D6A84F]/30 group-hover:w-full group-hover:bg-[#D6A84F] transition-all duration-500 mt-6" />
+              <div className="w-10 h-[2px] bg-[#D6A84F]/30 group-hover:w-full group-hover:bg-[#D6A84F] transition-all duration-500 mt-6" />
             </div>
           ))}
         </div>

@@ -19,12 +19,12 @@ export const InvestmentApproach: React.FC = () => {
   };
 
   return (
-    <section id="investment-approach" className="py-24 sm:py-32 bg-[#0B1F33] relative overflow-hidden">
+    <section id="investment-approach" className="py-20 sm:py-28 lg:py-32 bg-[#0B1F33] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto space-y-4 mb-16 sm:mb-24">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0E243B] border border-[#D6A84F]/30">
-            <span className="text-xs font-semibold tracking-widest uppercase text-[#F3D78B]">
+        <div className="text-center max-w-3xl mx-auto space-y-4 mb-16 sm:mb-20">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0E243B] border border-[#D6A84F]/30">
+            <span className="text-[11px] sm:text-xs font-bold tracking-widest uppercase text-[#F3D78B]">
               Methodology &amp; Framework
             </span>
           </div>
@@ -33,7 +33,7 @@ export const InvestmentApproach: React.FC = () => {
             How We <span className="text-gold-gradient">Create Value</span>
           </h2>
 
-          <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
             Our disciplined four-phase lifecycle unites institutional rigor with venture agility to
             scale durable, market-leading enterprises.
           </p>
@@ -55,19 +55,17 @@ export const InvestmentApproach: React.FC = () => {
               >
                 {/* Step Node Icon & Number */}
                 <div className="relative flex items-center justify-center shrink-0 mr-6 lg:mr-0 mb-0 lg:mb-6">
-                  {/* Outer pulse circle */}
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-[#F5D88A] via-[#D6A84F] to-[#B88A35] flex items-center justify-center shadow-gold-md group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-tr from-[#F5D88A] via-[#D6A84F] to-[#B88A35] flex items-center justify-center shadow-gold-md group-hover:scale-110 transition-transform duration-300">
                     {getStepIcon(idx)}
                   </div>
-                  {/* Step number badge */}
                   <span className="absolute -top-2 -right-2 px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#061522] text-[#F3D78B] border border-[#D6A84F]/50 shadow">
                     {step.step}
                   </span>
                 </div>
 
                 {/* Content Card */}
-                <div className="flex-1 p-6 rounded-2xl bg-[#0E243B]/60 border border-white/5 hover:border-[#D6A84F]/40 transition-all duration-300 group-hover:-translate-y-1 shadow-navy-card">
-                  <div className="text-[11px] font-bold uppercase tracking-widest text-[#D6A84F] mb-1">
+                <div className="flex-1 p-6 rounded-2xl bg-[#0E243B]/70 border border-white/5 hover:border-[#D6A84F]/40 transition-all duration-300 group-hover:-translate-y-1 shadow-navy-card">
+                  <div className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-[#D6A84F] mb-1">
                     {step.tagline}
                   </div>
                   <h3 className="font-heading text-xl font-bold text-white mb-2 group-hover:text-[#F3D78B] transition-colors">

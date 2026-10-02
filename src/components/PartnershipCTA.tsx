@@ -23,10 +23,10 @@ export const PartnershipCTA: React.FC<PartnershipCTAProps> = ({ onPartnerClick, 
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="relative rounded-3xl p-8 sm:p-14 lg:p-16 bg-gradient-to-b from-[#0E243B]/90 to-[#061522]/90 border border-[#D6A84F]/30 backdrop-blur-xl shadow-gold-md overflow-hidden">
-          {/* Subtle gold decorative elements */}
-          <div className="absolute -top-16 -right-16 w-64 h-64 bg-[#D6A84F]/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-[#D6A84F]/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="relative rounded-3xl p-6 sm:p-14 lg:p-16 bg-gradient-to-b from-[#0E243B]/90 to-[#061522]/90 border border-[#D6A84F]/30 backdrop-blur-xl shadow-gold-md overflow-hidden">
+          {/* Subtle gold decorative elements contained inside */}
+          <div className="absolute -top-16 -right-16 w-64 h-64 bg-[#D6A84F]/10 rounded-full blur-3xl pointer-events-none overflow-hidden" />
+          <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-[#D6A84F]/10 rounded-full blur-3xl pointer-events-none overflow-hidden" />
 
           {/* Decorative Corner Ornaments */}
           <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-[#D6A84F]/40" />
