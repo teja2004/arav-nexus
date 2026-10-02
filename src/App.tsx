@@ -16,10 +16,7 @@ import { InvestmentFocus } from './components/InvestmentFocus';
 import { WhyAravNexus } from './components/WhyAravNexus';
 import { Impact } from './components/Impact';
 import { Journey } from './components/Journey';
-<<<<<<< HEAD
-=======
 
->>>>>>> 3ee0b10 (Fix navbar and routing build errors)
 import { Careers } from './components/Careers';
 import { Contact } from './components/Contact';
 
