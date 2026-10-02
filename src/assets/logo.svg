@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" fill="none">
+  <defs>
+    <linearGradient id="fullGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE59F" />
+      <stop offset="40%" stop-color="#D6A84F" />
+      <stop offset="100%" stop-color="#9E7428" />
+    </linearGradient>
+  </defs>
+
+  <!-- Monogram Mark -->
+  <g transform="translate(4, 5)">
+    <rect x="1" y="1" width="58" height="58" rx="14" fill="#061522" stroke="url(#fullGoldGrad)" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- Interlocking A and N -->
+    <path d="M14 44 L26 15 C26.7 13.5 28.8 13.5 29.5 15 L34 26" 
+          stroke="url(#fullGoldGrad)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M19.5 32 L42.5 32" 
+          stroke="url(#fullGoldGrad)" stroke-width="3.8" stroke-linecap="round"/>
+    <path d="M32 16 L32 44 M32 24 L45.5 42 C46.5 43.2 48 42.8 48 41.2 L48 13" 
+          stroke="url(#fullGoldGrad)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="48,8 50.5,10.5 48,13 45.5,10.5" fill="url(#fullGoldGrad)"/>
+  </g>
+
+  <!-- Text: ARAV NEXUS -->
+  <text x="76" y="38" font-family="'Playfair Display', Georgia, serif" font-size="25" font-weight="700" letter-spacing="3" fill="#FFFFFF">
+    ARAV <tspan fill="url(#fullGoldGrad)">NEXUS</tspan>
+  </text>
+  
+  <!-- Subtitle Tagline -->
+  <text x="77" y="55" font-family="'Inter', sans-serif" font-size="8.5" font-weight="500" letter-spacing="3.2" fill="#94A3B8">
+    INVEST &bull; BUILD &bull; GROW TOGETHER
+  </text>
+</svg>

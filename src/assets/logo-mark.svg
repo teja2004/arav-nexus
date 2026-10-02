@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="anGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE59F" />
+      <stop offset="35%" stop-color="#D6A84F" />
+      <stop offset="100%" stop-color="#9E7428" />
+    </linearGradient>
+    <linearGradient id="anGlowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6A84F" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#E6C36A" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer subtle luxury border hexagonal / rounded shield -->
+  <rect x="2" y="2" width="96" height="96" rx="22" fill="#061522" stroke="url(#anGoldGrad)" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- Left A Apex & Ascent -->
+  <path d="M22 72 L42 24 C43.2 21.2 46.8 21.2 48 24 L56 42" 
+        stroke="url(#anGoldGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Horizontal Crossbar linking A to N -->
+  <path d="M31 52 L69 52" 
+        stroke="url(#anGoldGrad)" stroke-width="6.5" stroke-linecap="round"/>
+
+  <!-- N Right Vertical and Diagonal Descent -->
+  <path d="M52 26 L52 72 M52 38 L74 68 C75.5 70 78 69.5 78 67 L78 22" 
+        stroke="url(#anGoldGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pinnacle growth diamond -->
+  <polygon points="78,14 82,18 78,22 74,18" fill="url(#anGoldGrad)"/>
+</svg>
