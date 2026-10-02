@@ -16,13 +16,12 @@ import { InvestmentFocus } from './components/InvestmentFocus';
 import { WhyAravNexus } from './components/WhyAravNexus';
 import { Impact } from './components/Impact';
 import { Journey } from './components/Journey';
-import { PartnershipCTA } from './components/PartnershipCTA';
 import { Careers } from './components/Careers';
 import { Contact } from './components/Contact';
 
 import { Footer } from './components/Footer';
 
-import { siteConfig } from './config/site';
+
 
 
 /* =====================================================
