@@ -82,14 +82,14 @@ export const siteConfig = {
   },
 
   navigation: [
-    { label: "Home", href: "#hero" },
-    { label: "About", href: "#about" },
-    { label: "Businesses", href: "#businesses" },
-    { label: "Investments", href: "#investments" },
-    { label: "Impact", href: "#impact" },
-    { label: "Careers", href: "#careers" },
-    { label: "Contact", href: "#contact" },
-  ],
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Businesses", href: "/businesses" },
+  { label: "Investments", href: "/investments" },
+  { label: "Impact", href: "/impact" },
+  { label: "Careers", href: "/careers" },
+  { label: "Contact", href: "/contact" },
+],
 
   businesses: [
     {
