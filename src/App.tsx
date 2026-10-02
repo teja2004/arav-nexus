@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import { Navbar } from './components/Navbar';
-import BusinessDetail from './pages/BusinessDetail';
+import BusinessDetail from './Pages/BusinessDetail';
 import { Hero } from './components/Hero';
 import { Businesses } from './components/Businesses';
 import { About } from './components/About';
